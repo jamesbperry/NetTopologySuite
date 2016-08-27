@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace ProjNet.Utility
+namespace ProjNet.Utilities
 {
     public static class TypeExtensions
     {

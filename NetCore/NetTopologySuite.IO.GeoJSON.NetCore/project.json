@@ -4,7 +4,8 @@
   "dependencies": {
     "GeoAPI.NetCore": "1.0.0-*",
     "NETStandard.Library": "1.6.0",
-    "NetTopologySuite.NetCore": "1.0.0-*"
+    "NetTopologySuite.NetCore": "1.0.0-*",
+    "Newtonsoft.Json": "8.0.3"
   },
 
   "frameworks": {

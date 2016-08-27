@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>NetTopologySuite.NetCore</id>
+    <version>1.0.1</version>
+    <title>NetTopologySuite.NetCore</title>
+    <authors>jamesbperry</authors>
+    <owners>jamesbperry</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/jamesbperry/NetTopologySuite</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Fork of NetTopologySuite for .NET Standard</description>
+    <releaseNotes>It's a release!</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>NetTopologySuite NetStandard NetCore</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard1.6">
+        <dependency id="NETStandard.Library" version="[1.6, )" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Debug\netstandard1.6\GeoAPI.NetCore.dll" target="lib\netstandard1.6" />
+    <file src="bin\Debug\netstandard1.6\ProjNet4GeoAPI.NetCore.dll" target="lib\netstandard1.6" />
+    <file src="bin\Debug\netstandard1.6\NetTopologySuite.NetCore.dll" target="lib\netstandard1.6" />
+  </files>
+</package>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>NetTopologySuite.IO.GeoJSON.NetCore</id>
+    <version>1.0.0</version>
+    <title>NetTopologySuite.IO.GeoJSON.NetCore</title>
+    <authors>jamesbperry</authors>
+    <owners>jamesbperry</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/jamesbperry/NetTopologySuite</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Fork of NetTopologySuite.IO.GeoJSON for .NET Standard</description>
+    <releaseNotes>It's a release!</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>NetTopologySuite NetTopologySuite.IO.GeoJSON NetStandard NetCore</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard1.6">
+        <dependency id="NETStandard.Library" version="[1.6, )" />
+        <dependency id="NetTopologySuite.NetCore" version="[1.0.1, )" />
+        <dependency id="Newtonsoft.Json" version="[8.0, )" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Debug\netstandard1.6\NetTopologySuite.IO.GeoJSON.NetCore.dll" target="lib\netstandard1.6" />
+  </files>
+</package>

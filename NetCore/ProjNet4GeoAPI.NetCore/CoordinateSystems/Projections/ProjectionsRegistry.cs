@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using GeoAPI.CoordinateSystems;
 using GeoAPI.CoordinateSystems.Transformations;
-using ProjNet.Utility;
+using ProjNet.Utilities;
 
 namespace ProjNet.CoordinateSystems.Projections
 {
