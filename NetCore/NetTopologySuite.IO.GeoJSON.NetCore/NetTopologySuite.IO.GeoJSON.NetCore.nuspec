@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>NetTopologySuite.IO.GeoJSON.NetCore</id>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <title>NetTopologySuite.IO.GeoJSON.NetCore</title>
     <authors>jamesbperry</authors>
     <owners>jamesbperry</owners>
@@ -16,7 +16,7 @@
     <dependencies>
       <group targetFramework=".NETStandard1.6">
         <dependency id="NETStandard.Library" version="[1.6, )" />
-        <dependency id="NetTopologySuite.NetCore" version="[1.0.1, )" />
+        <dependency id="NetTopologySuite.NetCore" version="[1.0.2, )" />
         <dependency id="Newtonsoft.Json" version="[8.0, )" />
       </group>
     </dependencies>
